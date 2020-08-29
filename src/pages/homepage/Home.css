@@ -1,4 +1,16 @@
+.home {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .home__image {
   width: 100%;
-  mask-image: linear-gradient(to bott);
+  z-index: -1;
+  margin-bottom: -150px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin: 0 5px;
 }
